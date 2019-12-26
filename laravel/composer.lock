@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "94d4bf9ac7f4a933030e46a346ee2917",
+    "content-hash": "90acb764c261ca552990eaa22f5e0317",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -419,6 +419,53 @@
                 "trusted proxy"
             ],
             "time": "2019-12-20T13:11:11+00:00"
+        },
+        {
+            "name": "hanson/speedy",
+            "version": "1.0.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/HanSon/speedy.git",
+                "reference": "2999991aedb7f74cc51061aaa6fb754f61a15372"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/HanSon/speedy/zipball/2999991aedb7f74cc51061aaa6fb754f61a15372",
+                "reference": "2999991aedb7f74cc51061aaa6fb754f61a15372",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require-dev": {
+                "laravel/framework": "5.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Hanson\\Speedy\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "HanSon",
+                    "email": "h@hanc.cc"
+                }
+            ],
+            "description": "A Laravel Admin Package to create a website quickly",
+            "keywords": [
+                "admin",
+                "laravel",
+                "panel"
+            ],
+            "time": "2017-12-25T02:06:52+00:00"
         },
         {
             "name": "jakub-onderka/php-console-color",
